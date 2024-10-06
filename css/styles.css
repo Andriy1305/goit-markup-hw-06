@@ -354,7 +354,7 @@ width: calc((100% - 24px) / 2 );
 text-align: left;
 }
 } 
-@media screen and (min-width: 1159px){
+@media screen and (min-width: 1158px){
 .features-section{
 margin: 120px auto;
 }
@@ -406,7 +406,6 @@ margin-bottom: 72px;
 display:flex;
 flex-direction: column;
 gap: 72px;
-max-width: 264px;
 
 }
 .team-item{
@@ -462,7 +461,8 @@ padding-left: 108px;
 .team-list{
 flex-direction: row;
 flex-wrap: wrap;
-column-gap: 64px;
+gap: 64px;
+column-gap: 24px;
 }
 .team-item{
 width: calc((100% - 24px) / 2 );   
